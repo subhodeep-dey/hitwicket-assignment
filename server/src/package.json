@@ -1,0 +1,19 @@
+{
+    "name": "hitwicket-game-server",
+    "version": "1.0.0",
+    "description": "Server-side for Hitwicket turn-based chess-like game",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "ws": "^8.12.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    },
+    "author": "Subhodeep Dey",
+    "license": "ISC"
+}
